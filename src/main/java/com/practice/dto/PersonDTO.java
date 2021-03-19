@@ -10,7 +10,7 @@ import javax.validation.constraints.NotBlank;
 @Setter
 @PassEqual(min = 6,max = 15)
 public class PersonDTO {
-    @NotBlank
+    @NotBlank(message = "name不能为空")
     private String name;
 
     @NotBlank

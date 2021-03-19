@@ -14,7 +14,7 @@ import java.lang.annotation.Target;
 public @interface PassEqual {
     int min();
     int max();
-    String message() default "";
+    String message() default "pass missmatch";
     Class<?>[] groups() default {};
     Class<? extends Payload>[] payload() default {};
 }
