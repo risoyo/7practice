@@ -3,6 +3,7 @@ HELP.md
 /.idea/
 /.mvn/
 /src/main/resources/prod
+/src/main/resources/application-prod.yml
 !.mvn/wrapper/maven-wrapper.jar
 ### STS ###
 ##
