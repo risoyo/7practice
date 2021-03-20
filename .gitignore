@@ -2,6 +2,7 @@ HELP.md
 /target/
 /.idea/
 /.mvn/
+/src/main/resources/prod
 !.mvn/wrapper/maven-wrapper.jar
 ### STS ###
 ##
@@ -32,3 +33,4 @@ HELP.md
 /log/
 /.mvn/
 /src/main/resources/config/prod/
+/src/main/resources/prod/
