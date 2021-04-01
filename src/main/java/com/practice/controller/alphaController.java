@@ -13,8 +13,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class alphaController {
     @RequestMapping(path = "/request/test")
     @ResponseBody
-    public PersonDTO url(@RequestBody @Validated PersonDTO loginData){
+    public String url(@RequestBody String loginData){
         System.out.println("loginData");
+        System.out.println("8080 get");
         return loginData;
     };
 }

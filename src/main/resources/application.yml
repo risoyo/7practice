@@ -1,4 +1,7 @@
 ## 启用的配置文件
 spring:
   profiles:
-    active: dev
+    active: prod
+  jpa:
+    hibernate:
+      ddl-auto: update
